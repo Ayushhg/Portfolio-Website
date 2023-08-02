@@ -103,6 +103,36 @@ body a{
     font-size: 1.59rem;
 }
 
+@media (max-width: 700px){
+    .nav-bar{
+        height:45px;
+        width:100%;
+    }
+    .nav-space-one{
+        width: 10%;
+        display: none;
+    }
+    
+    .nav-bar-buttons{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 0.8rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    
+    .nav-bar-social{
+        width: 20%;
+        display: none;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 100px;
+        font-size: 1.59rem;
+    }
+}
+
 .icons-social{
     margin-right: 22px;
 }
@@ -144,11 +174,28 @@ body a{
     align-items: center;
 }
 
+@media (max-width: 700px){
+    .hero-section{
+        height:100vh;
+        width:100%;
+        background-color:#F6F4F0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .side-text-div{
     transform: rotateZ(270deg);
     margin-left: -20px;
     margin-top: -20px;
     align-items: flex-start;
+}
+
+@media (max-width:700px){
+    .side-text-div{
+        display: none;
+    }
 }
 
 .side-text{
@@ -194,6 +241,30 @@ body a{
     background-repeat: no-repeat;
 }
 
+@media (max-width: 700px){
+    .hero-photo-div{
+        height:27vh;
+        width:27vh;
+        border: black 1.2px solid;
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-top: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-picture{
+        height: 24vh;
+        width: 24vh;
+        border-radius: 50%;
+        background-color: pink;
+        background-image: url(assets/Ayush_PFP.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
 .hero-name{
     height: 300px;
     margin-top: 20px;
@@ -222,6 +293,40 @@ body a{
     background-color: #FDE5D9;
     margin-top: -54px;
     margin-left: 200px;
+}
+
+@media (max-width: 700px){
+    .name-pink-tone{
+        height: 0.9rem;
+        width: 81%;
+        text-align: right;
+        background-color: #FDE5D9;
+        margin-top: -44px;
+        margin-left: 20%;
+    }
+
+    .hero-name{
+        height: 300px;
+        margin-top: 20px;
+        width: 80%;
+        background-color: #F6F4F0;
+    }
+    
+    .my-name-is{
+        font-size: 1rem;
+        text-align: right;
+        margin-bottom: 20px;
+        font-family: 'ayushhg';
+    }
+    
+    .ayush-goel{
+        width: 100%;
+        font-size: 3.0rem;
+        text-align: right;
+        margin-right: 0px;
+        margin-top: -30px;
+        font-family: 'ayushhg';
+    }
 }
 
 .hero-name-subtitle{
@@ -306,6 +411,12 @@ body a{
     margin-left: 60px;
     font-size: 1.1rem;
     margin-top: -40px;
+}
+
+@media (max-width: 700px){
+    .rekha{
+        display: none;
+    }
 }
 
 .about-side{
@@ -409,6 +520,12 @@ body a{
     margin-top: 20px;
     /* align-items: center; */
     margin-left: 20px;
+}
+
+@media (max-width: 700px){
+    .project-image-div{
+        display: none;
+    }
 }
 
 .image-border{
