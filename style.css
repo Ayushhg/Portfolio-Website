@@ -109,7 +109,7 @@ body a{
         width:100%;
     }
     .nav-space-one{
-        width: 10%;
+        width: 20%;
         display: none;
     }
     
@@ -124,17 +124,24 @@ body a{
     }
     
     .nav-bar-social{
-        width: 20%;
-        display: none;
+        width: 0%;
+        margin-top: 32.5vh;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: flex-end;
-        margin-right: 100px;
-        font-size: 1.59rem;
+        margin-right: 0px;
+        font-size: 1.3rem;
+    }
+
+    .un-sticky{
+        position: relative;
     }
 }
 
 .icons-social{
-    margin-right: 22px;
+    margin-right: 42px;
+    padding-top: 5px;
 }
 
 .linkedin-system:hover{
@@ -147,6 +154,10 @@ body a{
 
 .mail-system:hover{
     color:#4e0506;
+}
+
+.phone-system:hover{
+    color: darkgreen;
 }
 
 .nav-bar-line-box{
@@ -413,12 +424,6 @@ body a{
     margin-top: -40px;
 }
 
-@media (max-width: 700px){
-    .rekha{
-        display: none;
-    }
-}
-
 .about-side{
     margin-left: 6px;
 }
@@ -458,6 +463,83 @@ body a{
     margin-top: 5px;
 }
 
+@media (max-width: 700px){
+    .hero-down-arrow{
+        color: black;
+        height: 80px;
+        background-color: #F6F4F0;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rekha{
+        display: none;
+    }
+
+    .about-section{
+        height: 135vh;
+        background-color: #E6E6E6;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+    }
+    
+    .about-profile{
+        height: 100%;
+        background-color: #E6E6E6;
+        width: 90%;
+        margin-left: 15px;
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+
+    .about-side{
+        margin-left: 0px;
+    }
+    
+    .about-title-heading{
+        margin-top: 50px;
+        display: flex;
+        /* background-color: pink; */
+        width: 95%;
+        font-weight: 600;
+        font-size: 1.3rem;
+    
+    }
+
+    .about-title-numbering{
+        display: none;
+    }
+
+    .experience-section{
+        width:100%;
+    }
+    
+    .about-title-numbering{
+        width: 12%;
+    }
+    
+    .heading-about{
+        margin-right: 5%;
+    }
+    
+    .company-name{
+        margin-left: 0%;
+        margin-top: 25px;
+        font-weight: 600;
+    }
+    
+    .experiences{
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    
+    .experience-description{
+        margin-top: 5px;
+    }
+}
+
 .skills-section{
     height: 50vh;
     display: flex;
@@ -486,6 +568,43 @@ body a{
 .skills-individual{
     font-size: 1.1rem;
     margin-top: 10px;
+}
+
+@media (max-width: 700px){
+    .skills-section{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #FDE5D9;
+    }
+    
+    .skills-heading{
+        font-size: 1.5rem;
+        font-family: 'ayushhg';
+        margin-top: 20px;
+    }
+    
+    .All-skills{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 10%;
+    }
+    
+    .all-skills-div{
+        font-size: 1.45rem;
+        width: 100%;
+    }
+    
+    .skills-individual p{
+        width: 100%;
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
 }
 
 .tick-mark{
@@ -522,12 +641,6 @@ body a{
     margin-left: 20px;
 }
 
-@media (max-width: 700px){
-    .project-image-div{
-        display: none;
-    }
-}
-
 .image-border{
     height: 440px;
     width: 680px;
@@ -539,6 +652,16 @@ body a{
 .project-wala{
     width: 100%;
     margin-top: -200px;
+}
+
+.projectt-title-heading{
+    margin-top: 150px;
+    display: flex;
+    /* background-color: pink; */
+    width: 95%;
+    font-weight: 600;
+    font-size: 1.3rem;
+
 }
 
 .project-heading-system{
@@ -561,6 +684,82 @@ body a{
 .Website-button:hover{
     background-color: white;
     font-weight: 600;
+}
+
+@media (max-width: 700px){
+    .project-section{
+        height: 70vh;
+        width: 100%;
+        background-color: #F6F4F0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .project-side{
+        margin-left: 0px;
+    }
+
+    .projectt-title-heading{
+        margin-left: 0px;
+        width: 70%;
+
+    }
+    
+    .PROJECT-HEADING{
+        margin-top: 170px;
+        margin-left: 10%;
+        /* margin-left: 40px; */
+    }
+    
+    .project-picture{
+        height: 200px;
+        width: 94.04%;
+        background-image: url(assets/Project_Amazon.png);
+        background-size: cover;
+        justify-content: center;
+        margin-top: 10px;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    .image-border{
+        height: 220px;
+        width: 88%;
+        margin-top: 70px;
+        margin-left: 6%;
+        margin-right: 6%;
+        border: 1px solid black;
+    }
+    
+    .project-wala{
+        width: 100%;
+        margin-top: -210px;
+    }
+    
+    .project-heading-system{
+        margin-left: 0px;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    
+    .Website-button{
+        height: 40px;
+        width: 39.7%;
+        margin-top: 50px;
+        background-color: #F6F4F0;
+        border: 0px solid black;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.001rem;
+        margin-left: 30.15%;
+        border: black 1px solid;
+    }
+    
+    .Website-button:hover{
+        background-color: white;
+        font-weight: 600;
+    }
 }
 
 .contact-me-section{
